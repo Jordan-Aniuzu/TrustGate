@@ -2,9 +2,9 @@
 
 A small **AI control evaluation**: can a trusted monitor catch an untrusted AI agent that hides malicious behaviour in otherwise-correct code — *including* when the honest code itself does risky-looking things?
 
-📄 **[Full writeup (PDF)](./TrustGate_writeup.pdf)** — motivation, results, limitations, and what I'd do next.
-
 AI control assumes the agent might be misaligned and builds monitoring that catches harmful actions regardless. TrustGate is a miniature version: a simulated agent writes an **honest** or an **attack** version of each task, and three monitors try to tell them apart.
+
+📄 **[Full writeup (PDF)](./TrustGate_writeup.pdf)** — motivation, results, limitations, and what I'd do next.
 
 ## The tasks (26, in three tiers)
 
